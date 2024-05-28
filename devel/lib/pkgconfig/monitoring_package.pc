@@ -1,0 +1,8 @@
+prefix=/root/assignment3_ws/devel
+
+Name: monitoring_package
+Description: Description of monitoring_package
+Version: 0.0.0
+Cflags: -I/root/assignment3_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
